@@ -3,13 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@hookform/resolvers": "^3.10.0",
     "cra-template": "1.2.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",
     "prettier": "^3.4.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-scripts": "5.0.1"
+    "react-hook-form": "^7.54.2",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.9.0",
+    "yup": "^1.6.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -21,11 +25,11 @@
     "extends": [
       "react-app",
       "react-app/jest",
-	  "prettier"
+      "prettier"
     ],
-"plugins":[
-	"prettier"
-]
+    "plugins": [
+      "prettier"
+    ]
   },
   "browserslist": {
     "production": [

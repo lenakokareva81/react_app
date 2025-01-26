@@ -1,11 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
-import { App } from "./App";
+
+import { FormEmailPasswordYup } from "./forms/formEmailPAsswordYup";
+import { FormEmailPassword } from "./forms/formEmailPassword";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
 	<React.StrictMode>
-		<App />
+		<FormEmailPassword></FormEmailPassword>
+		<FormEmailPasswordYup></FormEmailPasswordYup>
 	</React.StrictMode>,
 );
